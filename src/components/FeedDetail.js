@@ -3,6 +3,7 @@ import {Text, View, Image, Linking, CameraRoll} from 'react-native';
 import Card from './Card';
 import CardSection from './CardSection';
 import Button from './Button';
+import {Actions} from 'react-native-router-flux';
 
 const FeedDetail = ({eachFeed}) => {
   // const {title, artist, thumbnail_image,image,url} = eachAlbum;
@@ -34,6 +35,7 @@ const FeedDetail = ({eachFeed}) => {
       }>
       Download
       </Button>
+      <Button onTapped={()=>Actions.eachFeed({eachFeed})}>Edit</Button>
       </CardSection> 
       </Card>
     );

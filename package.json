@@ -8,8 +8,9 @@
   },
   "dependencies": {
     "axios": "^0.16.1",
-    "react": "16.0.0-alpha.6",
-    "react-native": "0.44.0",
+    "react": "^16.0.0-alpha.6",
+    "react-native": "^0.44.0",
+    "react-native-router-flux": "^3.39.1",
     "unsplash-js": "^4.6.0"
   },
   "devDependencies": {

@@ -3,14 +3,14 @@
 //Importing Library which helps for component Creation
 import React from 'react';
 import { AppRegistry, View } from 'react-native';
-import Header from './src/components/Header';
-import FeedList from './src/components/FeedList';
+
+
+import Router from './src/Router';
 
 //Creation Of Component
 const App = () => (
   <View style={{ flex: 1 }} >
-  <Header headerTitleText = {'Unsplash'} />
-  <FeedList />
+  <Router/>
   </View>
 );
 
